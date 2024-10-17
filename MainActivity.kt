@@ -44,34 +44,7 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
-    ) {
-        Text(text = "Login",
-            style = TextStyle(fontSize = 50.sp,
-            fontWeight = FontWeight.Bold)
-        )
-        Text(text = "Ini adalah halaman login")
-        Image(painter = painterResource(
-            id = R.drawable.umy
-        ),
-            contentDescription = null ,
-            modifier = Modifier.padding(top = 40.dp).size(250.dp)
-        )
-
-        Text(text = "nama",
-            modifier = Modifier.padding(top=20.dp)
-        )
-        Text(text = "Inayah Ummu Ardillah", color = Color.Red,
-            style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold)
-        )
-        Text(text = "20220140143",
-            style = TextStyle(fontSize = 30.sp, fontWeight =
-            FontWeight.Bold),
-            modifier = Modifier.padding(top = 20.dp)
-        )
-        Image(painter = painterResource(id = R.drawable.me), contentDescription = null,
-            modifier = Modifier.padding(top = 40.dp).size(250.dp)
-        )
-    }
+    ) {}
 }
 
 @Preview(showBackground = true)
