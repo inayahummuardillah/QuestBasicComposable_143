@@ -45,7 +45,6 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize()
     ) {
-
     }
 }
 
