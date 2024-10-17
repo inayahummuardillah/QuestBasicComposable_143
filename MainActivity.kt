@@ -63,7 +63,13 @@ fun BasicLayout(modifier: Modifier = Modifier) {
         Text(text = "Inayah Ummu Ardillah", color = Color.Red,
             style = TextStyle(fontSize = 20.sp, fontWeight = FontWeight.Bold)
         )
+        Text(text = "20220140143",
+            style = TextStyle(fontSize = 30.sp, fontWeight =
+            FontWeight.Bold),
+            modifier = Modifier.padding(top = 20.dp)
+        )
 
+    }
 }
 
 @Preview(showBackground = true)
